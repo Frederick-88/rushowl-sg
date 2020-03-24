@@ -1,0 +1,125 @@
+html {
+    scroll-behavior: smooth;
+}
+.container{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.flex-fx{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+.header {
+    width: 100%;
+    background-color: #353535;
+    position: fixed;
+    margin-top: -100px;
+    z-index: 1;
+    /* height: 500px; */
+  }
+  
+  .header-bawah {
+    width: 100%;
+  }
+  
+  .nav .menu-bar {
+    width: 100%;
+    text-align: center;
+    /* background-color: #535252; */
+    -webkit-padding-start: 0;
+            padding-inline-start: 0;
+  }
+  
+  .nav .menu-bar li {
+    list-style-type: none;
+    display: inline-block;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 25px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  /* .nav .menu-bar li:hover {
+    background-color: ivory;
+    color: #e75810;
+  } */
+  
+  .nav .menu-bar li:hover a {
+    color: #becf1d;
+  }
+  
+  .nav .menu-bar li a {
+    color: whitesmoke;
+    text-decoration: none;
+  }
+  .img-section1{
+    width: 2000px;
+    margin-top: -20px;
+  }
+  .img-section{
+    width: 2000px;
+    margin-top: -5px;
+  }
+  .footer{
+      margin-top: -5px;
+      padding-left: 50px;
+      padding-top: 50px;
+      padding-right: 50px;
+      background-color: rgb(35, 35, 35);
+      color: whitesmoke;
+  }
+ .links a{
+    font-size: 22px;
+    font-weight: bold;
+    color: whitesmoke;
+    text-decoration: none;
+  }
+ .links a:hover{
+      color:#becf1d;
+  }
+  label{
+    font-size: 24px;
+    color: whitesmoke;
+  }
+
+  /* ini percobaan msukin button kedlam foto section2 */
+
+  .section2 {
+    position: relative;
+    width: 50%;
+  }
+  .section2 .button{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 60px;
+    padding-top: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 15px;
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    border-width: 5px;
+    cursor: pointer;
+  }
+  .mini-flex-fx{
+    display: flex;
+    flex-flow: row wrap;
+    float: right;
+    margin-right: 50px;
+  }
+  .section2.button:hover{
+  background-color: violet;
+  }
+  
+  
+ 
