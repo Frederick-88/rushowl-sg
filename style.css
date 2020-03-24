@@ -5,6 +5,10 @@ html {
     padding-left: 100px;
     padding-right: 100px;
 }
+.container2{
+  padding-left: 350px;
+  padding-right: 350px;
+}
 .flex-fx{
     display: flex;
     flex-flow: row wrap;
@@ -119,6 +123,17 @@ html {
   }
   .section2.button:hover{
   background-color: violet;
+  }
+
+ .paragraph{
+  color: rgb(23, 23, 23);
+  opacity: 80%;
+  font-size: 24px;
+  }
+  i{
+    color: whitesmoke;
+    padding-right: 30px;
+    text-decoration: none;
   }
   
   
