@@ -38,7 +38,7 @@ html {
   .nav .menu-bar li {
     list-style-type: none;
     display: inline-block;
-    padding-top: 10px;
+    padding-top: 20px;
     padding-left: 30px;
     padding-right: 30px;
     font-size: 25px;
@@ -135,6 +135,41 @@ html {
     padding-right: 30px;
     text-decoration: none;
   }
+  .cs-flex-fx{
+    display: flex;
+    flex-flow: row wrap;
+  }
+  .faq-link{
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    padding-right: 30px;
+    text-decoration: none;
+  }
+  .accordion {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    font-size: 25px;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+  }
   
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .accordion:hover {
+    background-color: #ccc;
+  }
   
- 
+  /* Style the accordion panel. Note: hidden by default */
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+  } 
+ hr{
+   color: black;
+ }
