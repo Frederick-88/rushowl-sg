@@ -1,0 +1,19 @@
+  .header {
+    width: 38%;
+    height: 75px;
+    background-color: #ffffff;
+    position: fixed;
+    margin-top: -100px;
+    z-index: 1;
+  }
+  .flex-fx {
+    display: flex;
+    flex-flow: row wrap;
+  }
+  input{
+   margin-right: 40px;
+   margin-left: 40px;
+      padding: 10px;
+      font-size: 20px;
+      width: 80%;
+  }
