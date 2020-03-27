@@ -8,8 +8,8 @@ html {
 }
 
 .container2 {
-  padding-left: 350px;
-  padding-right: 350px;
+  padding-left: 150px;
+  padding-right: 150px;
 }
 
 .flex-fx {
@@ -22,7 +22,7 @@ html {
   width: 100%;
   background-color: #202020;
   position: fixed;
-  margin-top: -100px;
+  margin-top: -97px;
   z-index: 1;
   /* height: 500px; */
 }
@@ -42,10 +42,10 @@ html {
 .nav .menu-bar li {
   list-style-type: none;
   display: inline-block;
-  padding-top: 20px;
-  padding-left: 30px;
-  padding-right: 30px;
-  font-size: 25px;
+  padding-top: 17px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 17px;
   cursor: pointer;
   font-weight: bold;
 }
@@ -87,7 +87,7 @@ html {
 }
 
 .links a {
-  font-size: 22px;
+  font-size: 14px;
   font-weight: bold;
   color: whitesmoke;
   text-decoration: none;
@@ -98,7 +98,7 @@ html {
 }
 
 label {
-  font-size: 24px;
+  font-size: 16px;
   color: whitesmoke;
 }
 
@@ -115,18 +115,17 @@ label {
   /* left: 50%; */
   /* transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%); */
-  font-size: 24px;
+  font-size: auto;
   font-weight: bold;
   margin-right: 60px;
   padding-top: 15px;
-  padding-left: 25px;
-  padding-right: 25px;
+  padding-left: 35px;
+  padding-right: 35px;
   padding-bottom: 15px;
   color: rgb(255, 255, 255);
   background-color: transparent;
   border-style: solid;
   border-color: rgb(255, 255, 255);
-  border-width: 5px;
   cursor: pointer;
 }
 
@@ -136,8 +135,8 @@ label {
     float: right; */
   /* margin-right: 50px; */
   position: absolute;
-  top: 7em;
-  right: 160px;
+  top: 4em;
+  right: 80px;
 }
 
 .section2.button:hover {
@@ -147,7 +146,7 @@ label {
 .paragraph {
   color: rgb(23, 23, 23);
   opacity: 80%;
-  font-size: 24px;
+  font-size: 16px;
 }
 
 i {
@@ -162,8 +161,17 @@ i {
 }
 
 .faq-link {
-  color: rgb(0, 0, 0);
-  font-size: 25px;
+  color: rgb(87, 87, 87);
+  opacity: 50%;
+  font-weight: bold;
+  font-size: 17px;
+  padding-right: 30px;
+  text-decoration: none;
+}
+.faq-link-utama{
+  color: black;
+  font-weight: bold;
+  font-size: 17px;
   padding-right: 30px;
   text-decoration: none;
 }
@@ -172,7 +180,7 @@ i {
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   cursor: pointer;
-  font-size: 25px;
+  font-size: 18px;
   padding: 18px;
   width: 100%;
   text-align: left;
